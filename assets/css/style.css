@@ -17,16 +17,12 @@ body {
     padding: 30px;
     margin-bottom: 30px;
   }
-  .two-toned-header-color {
-    height: 6px;
-    padding-top: 3px;
-    background-color: firebrick;
-  }
   .block-header {
     color: firebrick;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
     background-color: darkgray;
+    text-align: center;
   }
   #logo {
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -39,6 +35,7 @@ body {
   }
   .navbar {
     background: firebrick;
+    border-bottom: 5px solid firebrick;
   }
   @media only screen and (max-width: 767px) {
     .navbar-header {
